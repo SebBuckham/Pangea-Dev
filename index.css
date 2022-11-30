@@ -110,6 +110,10 @@ button{
         top: 300px;
     }
 
+    .buttons{
+        display: flex;
+    }
+
     #toggle:checked + .menu{
         display: block;
     }
