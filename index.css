@@ -103,12 +103,10 @@ button{
     }
 
     .main-container{
-       display: flex;
-       justify-content: center;
-       align-self: center;
-       position: relative;
-       right: 50px;
-      
+        position: relative;
+        right: 55px;
+        top: 150px;
+        
     }
 
     .para h1{
@@ -119,13 +117,14 @@ button{
         font-size: 1rem;
     }
     button {
-        width: 100px;
+       font-size: 10px;
+       width: 100%;
     }
     .buttons {
         display: flex;
         justify-content: center;
        position: relative;
-       right: 20px;
+       right: 45px;
     }
 
     #toggle:checked + .menu{
