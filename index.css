@@ -79,7 +79,7 @@ input{
 
 button{
     width: 200px;
-    border-radius: 20px;
+    
     color: white;
     background-color: black;
     cursor: pointer;
@@ -104,28 +104,32 @@ button{
 
     .main-container{
         position: relative;
-        right: 70px;
-        top: 300px;
+        right: 35px;
+        top: 130px;
         
     }
 
     .para h1{
         font-size: 25px;
+        line-height: 30px;
     }
 
     .para p {
-        font-size: 1rem;
+        font-size: 14px;
+        line-height: 30px;
     }
     button {
        font-size: 10px;
-       width: 100%;
+       width: 95px;
+       display: flex;
+       justify-content: center;
     }
-    .buttons {
+    .button{
         display: flex;
-        justify-content: center;
-       position: relative;
-       right: 45px;
+       justify-content: center;
+
     }
+    
 
     #toggle:checked + .menu{
         display: block;
