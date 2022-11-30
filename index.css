@@ -70,9 +70,7 @@ input{
     font-size: 30px;
 }
 
-.para h1{
-    font-family: cursive;
-}
+
 
 .para p{
     font-size: 40px;
@@ -106,9 +104,9 @@ button{
 
     .main-container{
         position: relative;
-        left: 20px;
+        right: 55px;
         top: 190px;
-        width: 100%;
+      
     }
 
     .para h1{
@@ -116,7 +114,7 @@ button{
     }
 
     .para p {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     button {
         width: 100px;
