@@ -104,13 +104,13 @@ button{
 
     .main-container{
         position: relative;
-        left: 95px;
-        top: 100px;
-        width: 100%;
+        right: 50px;
+        top: 200px;
+        
     }
 
     .para h1{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .para p {
