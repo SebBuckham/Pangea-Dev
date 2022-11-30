@@ -106,12 +106,26 @@ button{
 
     .main-container{
         position: relative;
-        left: 30px;
-        top: 300px;
+        left: 20px;
+        top: 190px;
+        width: 100%;
     }
 
-    .buttons{
+    .para h1{
+        font-size: 2rem;
+    }
+
+    .para p {
+        font-size: 1.4rem;
+    }
+    button {
+        width: 100px;
+    }
+    .buttons {
         display: flex;
+        justify-content: center;
+       position: relative;
+       right: 20px;
     }
 
     #toggle:checked + .menu{
